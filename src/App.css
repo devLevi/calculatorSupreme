@@ -10,6 +10,9 @@
 }
 
 .calculator {
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 1rem;
   display: inline-block;
   margin-top: 10vh;
   display: grid;
@@ -33,7 +36,7 @@
 .display-text {
   text-align: right;
   padding-right: 1.4rem;
-  color: white;
+  color: rgb(32, 165, 189);
   font-size: 4rem;
   font-weight: 300;
   margin: 0;
@@ -45,6 +48,18 @@
   outline: none;
   cursor: pointer;
   border-radius: 50%;
+}
+
+.num-btn {
+  background-color: rgb(32, 165, 189);
+}
+
+.function-btn {
+  background-color: hotpink;
+}
+
+.operator-btn {
+  background-color: lawngreen;
 }
 
 #span-two {
